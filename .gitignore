@@ -1,3 +1,6 @@
+# Project specific
+dist/terra-application.js 
+
 # From https://github.com/github/gitignore
 #  - Node.gitignore
 #  - Ruby.gitignore

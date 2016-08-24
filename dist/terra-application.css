@@ -1,0 +1,17 @@
+.terra-Application {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #1c1f21;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 87.5%;
+  height: 100%;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
+  .terra-Application body {
+    margin: 0; }
+  @media print {
+    .terra-Application {
+      background-color: transparent !important;
+      color: #000 !important; } }
