@@ -1,2 +1,21 @@
 @import './terra/application/variables';
-@import './terra/application';
+
+.terra-Application {
+  background-color: $terra-application-background-color;
+  box-sizing: border-box;
+  color: $terra-application-color;
+  font-family: $terra-font-family;
+  font-size: $terra-application-font-size;
+  height: 100%;
+  margin: 0;
+  text-size-adjust: 100%;
+
+  body {
+    margin: 0;
+  }
+
+  @media print {
+    background-color: transparent !important;
+    color: #000 !important;
+  }
+}

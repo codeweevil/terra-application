@@ -10,6 +10,6 @@ Releasing the project requires these steps:
 3. `npm publish` (make sure it's uploaded to [npm][project-url])
 4. Update `master` to a new minor version
 
-[project-url]: https://www.npmjs.com/package/terra-application
+[project-url]: https://www.npmjs.com/package/terra-application/
 [semantic-versioning]: http://semver.org/
 [github-release-url]: https://help.github.com/articles/creating-releases/

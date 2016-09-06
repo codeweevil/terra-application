@@ -1,6 +1,7 @@
 const path = require('path');
 const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 const modulePaths = Object.keys(require('./package.json').dependencies)
   .reduce((paths, module) => {
     // eslint-disable-next-line global-require
@@ -11,7 +12,7 @@ const modulePaths = Object.keys(require('./package.json').dependencies)
 
 module.exports = {
   entry: {
-    application: path.join(__dirname, 'src', 'webpack'),
+    'terra-application': path.join(__dirname, 'src', 'webpack'),
   },
   module: {
     loaders: [
@@ -22,10 +23,10 @@ module.exports = {
     ],
   },
   output: {
-    filename: 'terra-[name].js',
+    filename: '[name].js',
     path: path.join(__dirname, 'dist'),
   },
-  plugins: [new ExtractTextPlugin('terra-[name].css')],
+  plugins: [new ExtractTextPlugin('[name].css')],
   postcss: [
     autoprefixer({
       browsers: [
@@ -37,9 +38,6 @@ module.exports = {
       ],
     }),
   ],
-  resolve: {
-    root: modulePaths,
-  },
   sassLoader: {
     includePaths: modulePaths,
   },
