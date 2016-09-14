@@ -1,8 +1,9 @@
 const path = require('path');
 const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const modulePaths = Object.keys(require('./package.json').dependencies)
+const modulePaths = Object.keys(require('./package.json').devDependencies)
   .reduce((paths, module) => {
     // eslint-disable-next-line global-require
     const includePaths = require(module).includePaths;
@@ -26,7 +27,12 @@ module.exports = {
     filename: '[name].js',
     path: path.join(__dirname, 'dist'),
   },
-  plugins: [new ExtractTextPlugin('[name].css')],
+  plugins: [
+    new ExtractTextPlugin('[name].css'),
+    new HtmlWebpackPlugin({
+      template: 'src/index-template.ejs',
+    }),
+  ],
   postcss: [
     autoprefixer({
       browsers: [

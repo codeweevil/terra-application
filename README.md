@@ -1,12 +1,31 @@
-# Terra Application
+# Terra Application _(Currently in beta)_
 
-Under construction
+The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
 
-# Contributing
+## Getting Started
+- Install with [npm](https://www.npmjs.com): `npm install terra-application`
+- [Download the latest version](https://github.com/cerner/terra-application/archive/master.zip)
+- Clone the repo: `git clone https://github.com/cerner/terra-application.git`
+
+
+## Dependencies
+
+> [terra-legacy-theme](https://github.com/cerner/terra-legacy-theme): Provides global themeable variables.
+
+## Supported Browsers
+| Browser                     | Version |
+|-----------------------------|---------|
+| Chrome & Chrome for Android | Current |
+| Edge                        | Current |
+| Firefox                     | Current |
+| Internet Explorer           | 10 & 11 |
+| Safari & Mobile Safari      | Current |
+
+## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-# LICENSE
+## LICENSE
 
 Copyright 2016 Cerner Innovation, Inc.
 
