@@ -7,6 +7,7 @@ The terra-application component sets global styles for the entire application. G
 - [Download the latest version](https://github.com/cerner/terra-application/archive/master.zip)
 - Clone the repo: `git clone https://github.com/cerner/terra-application.git`
 
+See the [documentation](docs/).
 
 ## Dependencies
 
