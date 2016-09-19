@@ -1,5 +1,7 @@
 # Terra Application _(Currently in beta)_
 
+[![Build Status](https://travis-ci.org/cerner/terra-application.svg?branch=master)](https://travis-ci.org/cerner/terra-application)
+
 The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
 
 ## Getting Started
