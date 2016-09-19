@@ -24,17 +24,15 @@ Thanks.
 * Use the same coding conventions as the rest of the project.
 * Commit locally and push to your fork until you are happy with your contribution.
 * Make sure to add tests and verify all the tests are passing when merging upstream.
-* Add an entry to the [Changelog][4] accordingly.
-* Please add your name to the [CONTRIBUTORS.md][8] file. Adding your name to the [CONTRIBUTORS.md][8] file signifies agreement to all rights and reservations provided by the [License][5].
-* [Squash related commits together][6].
-* Open a [pull request][7].
+* Please add your name to the [CONTRIBUTORS.md][7] file. Adding your name to the [CONTRIBUTORS.md][7] file signifies agreement to all rights and reservations provided by the [License][4].
+* [Squash related commits together][5].
+* Open a [pull request][6].
 * The pull request will be reviewed by the community and merged by the project committers.
 
 [1]: https://github.com/cerner/terra-application/issues
 [2]: http://gun.io/blog/how-to-github-fork-branch-and-pull-request
 [3]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[4]: ./CHANGELOG.md
-[5]: ./LICENSE
-[6]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
-[7]: https://help.github.com/articles/using-pull-requests
-[8]: ./CONTRIBUTORS.md
+[4]: ./LICENSE
+[5]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
+[6]: https://help.github.com/articles/using-pull-requests
+[7]: ./CONTRIBUTORS.md
