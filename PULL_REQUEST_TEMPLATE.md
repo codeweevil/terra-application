@@ -9,16 +9,14 @@ Thanks.
 * Use the same coding conventions as the rest of the project.
 * Commit locally and push to your fork until you are happy with your contribution.
 * Make sure to add tests and verify all the tests are passing when merging upstream.
-* Add an entry to the [Changelog][3] accordingly.
-* Please add your name to the [CONTRIBUTORS.md][7] file. Adding your name to the [CONTRIBUTORS.md][7] file signifies agreement to all rights and reservations provided by the [License][4].
-* [Squash related commits together][5].
-* Open a [pull request][6].
+* Please add your name to the [CONTRIBUTORS.md][6] file. Adding your name to the [CONTRIBUTORS.md][6] file signifies agreement to all rights and reservations provided by the [License][3].
+* [Squash related commits together][4].
+* Open a [pull request][5].
 * The pull request will be reviewed by the community and merged by the project committers.
 
 [1]: http://gun.io/blog/how-to-github-fork-branch-and-pull-request
 [2]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[3]: ./CHANGELOG.md
-[4]: ./LICENSE
-[5]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
-[6]: https://help.github.com/articles/using-pull-requests
-[7]: ./CONTRIBUTORS.md
+[3]: ./LICENSE
+[4]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
+[5]: https://help.github.com/articles/using-pull-requests
+[6]: ./CONTRIBUTORS.md
