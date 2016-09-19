@@ -1,5 +1,6 @@
 # Terra Application _(Currently in beta)_
 
+[![NPM version](http://img.shields.io/npm/v/terra-application.svg)](https://www.npmjs.org/package/terra-application)
 [![Build Status](https://travis-ci.org/cerner/terra-application.svg?branch=master)](https://travis-ci.org/cerner/terra-application)
 
 The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
