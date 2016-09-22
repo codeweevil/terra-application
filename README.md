@@ -5,10 +5,19 @@
 
 The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
 
+- [Getting Started](#getting-started)
+- [Documentation](#documentation)
+- [Dependencies](#dependencies)
+- [Supported Browsers](#supported-browsers)
+- [Contributing](#contributing)
+- [LICENSE](#license)
+
 ## Getting Started
 - Install with [npm](https://www.npmjs.com): `npm install terra-application`
 - [Download the latest version](https://github.com/cerner/terra-application/archive/master.zip)
 - Clone the repo: `git clone https://github.com/cerner/terra-application.git`
+
+## Documentation
 
 See the [documentation](docs/).
 
