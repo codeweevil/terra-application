@@ -1,6 +1,7 @@
 # Terra Application _(Currently in beta)_
 
 The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
+The `terra-application` class should be applied to the `html` element to ensure `rem` units are computed correctly.
 
 ## Getting Started
 - Install with [npm](https://www.npmjs.com): `npm install terra-application`

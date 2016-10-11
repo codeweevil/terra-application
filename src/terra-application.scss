@@ -1,16 +1,17 @@
 @import './terra/application/variables';
 
 .terra-Application {
-  background-color: $terra-application-background-color;
   box-sizing: border-box;
-  color: $terra-application-color;
-  font-family: $terra-font-family;
   font-size: $terra-application-font-size;
   height: 100%;
   margin: 0;
   text-size-adjust: 100%;
 
-  body {
+  > body {
+    background-color: $terra-application-background-color;
+    color: $terra-application-color;
+    font-family: $terra-font-family;
+    font-size: 1rem;
     margin: 0;
   }
 
