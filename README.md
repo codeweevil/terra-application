@@ -2,6 +2,7 @@
 
 [![NPM version](http://img.shields.io/npm/v/terra-application.svg)](https://www.npmjs.org/package/terra-application)
 [![Build Status](https://travis-ci.org/cerner/terra-application.svg?branch=master)](https://travis-ci.org/cerner/terra-application)
+[![Stories in Ready](https://badge.waffle.io/cerner/terra-ui.com.svg?label=ready&title=Ready)](http://waffle.io/cerner/terra-ui.com)
 
 The terra-application component sets global styles for the entire application. Global styles include font, colors, margins, and sizes.
 
