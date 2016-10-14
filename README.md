@@ -22,10 +22,6 @@ The terra-application component sets global styles for the entire application. G
 
 See the [documentation](docs/).
 
-## Dependencies
-
-> [terra-legacy-theme](https://github.com/cerner/terra-legacy-theme): Provides global themeable variables.
-
 ## Supported Browsers
 | Browser                     | Version |
 |-----------------------------|---------|
