@@ -5,6 +5,7 @@ Cerner Corporation
 - Matt Butler [@matt-butler]
 - Rory Hardy [@gneatgeek]
 - Tao Zhang [@windse7en]
+- Mark Cummings [@codeweevil]
 
 
 
@@ -13,3 +14,4 @@ Cerner Corporation
 [@matt-butler]: https://github.com/matt-butler
 [@gneatgeek]: https://github.com/gneatgeek
 [@windse7en]:https://github.com/windse7en
+[@codeweevil]:https://github.com/codeweevil
